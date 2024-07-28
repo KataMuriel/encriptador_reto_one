@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto challenger</title>
+    <link rel="logo" type="img" href="./Assets/Logo.png">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+
+<body>
+    
+    <header>
+        
+        <img class="logo__encabezado"  src="Assets/Logo.png" alt="Logo de alura">
+    
+    </header>
+
+    <main>
+        <section class="encriptador">
+        <textarea id="encriptar" name="encriptar" class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+
+        <div class="encriptador__aviso">
+            <img class="logo__aviso"  src="Assets/bi_exclamation-circle-fill.png" alt="Logo aviso">
+            <p class="texto__aviso">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="encriptador__contenedor">
+            <button class="boton__encriptar" type="submit">Encriptar </button>
+            <button class="boton__desencriptar" type="submit">Desencriptar</button>
+
+        </div>
+
+        </section>
+
+        <section class="tarjeta">
+
+            <div class="tarjeta__contenedor">
+
+            <img class="muneco" src="./Assets/Muñeco.png" alt="Persona con lupa">
+
+            <p class="texto__alternativo">Ningún mensaje fue encontrado</p>
+
+            <p class="texto__reingreso">Ingrese el texto que desea encriptar o desencriptar</p>
+
+            </div>
+
+            <textarea id="mensaje" name="mensaje" class="evaluar" readonly></textarea>
+
+            <button type="submit" class="boton__copiar">Copiar</button>
+
+        </section>
+    </main>
+
+
+    <footer>
+
+        <p class="copyright">&copy; copyright 2024 - Encriptador de Texto - Desarrollado por KataMuriel</p>
+        <a href="" rel="my profile">
+            <img src="./Assets/linkedin.png" alt="Logo de linkedin" class="linkedin">
+        </a>
+
+        <a href="" rel="my profile github">
+            <img src="./Assets/github.png" alt="Logo de github" class="github">
+        </a>
+
+    </footer>
+
+    <script src= "./Js/script.js"></script>  
+</body>
+</html>
